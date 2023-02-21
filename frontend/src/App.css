@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css2?family=Grand+Hotel&family=MuseoModerno:wght@300;400&display=swap");
+
+.auth-card {
+  padding: 20px;
+  text-align: center;
+  max-width: 40vw;
+  margin: 10px auto;
+}
+
+.mycard {
+  margin-top: 10vh;
+}
+
+.card > h2 {
+  font-family: "Grand Hotel", cursive;
+}
+
+.gallery {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.gallery .item {
+  width: 30%;
+}
+
+.home > .card {
+  max-width: 60vw;
+  height: max-content;
+  margin: 26px auto;
+}
+
+.card-content > i {
+  color: red;
+}
+
+.material-icons:hover {
+  cursor: pointer;
+}
